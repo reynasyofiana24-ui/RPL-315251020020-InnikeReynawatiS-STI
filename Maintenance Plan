@@ -1,0 +1,21 @@
+# Maintenance Plan
+
+# Corrective
+1. Memperbaiki bug validasi form pendaftaran yang menerima input kosong.  
+2. Memperbaiki kesalahan perhitungan total harga pada halaman checkout.  
+3. Memperbaiki error saat login gagal karena salah query database.  
+
+# Adaptive
+4. Menyesuaikan API pembayaran karena penyedia mengubah versi endpoint.  
+5. Menyesuaikan tampilan agar kompatibel dengan browser terbaru.  
+6. Update sistem agar mendukung versi terbaru OS server.  
+
+# Perfective
+7. Menambah fitur pencarian produk dengan filter kategori.  
+8. Meningkatkan performa loading halaman utama.  
+9. Menambahkan fitur rekomendasi produk berdasarkan riwayat pembelian.  
+
+# Preventive
+10. Refactoring kode untuk mengurangi duplikasi fungsi.  
+11. Membuat dokumentasi teknis terbaru agar mudah dipahami tim baru.  
+12. Menambahkan unit test untuk modul transaksi agar bug bisa terdeteksi lebih awal.  
