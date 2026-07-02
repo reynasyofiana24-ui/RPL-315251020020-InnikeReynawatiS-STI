@@ -1,0 +1,53 @@
+# Deskripsi Sistem
+
+Nama Sistem: E-Commerce Sederhana  
+Tujuan: Memfasilitasi penjualan produk secara online.  
+Pengguna Utama: Admin (mengelola produk), Customer (membeli produk).  
+Fitur Utama:
+- Registrasi dan login pengguna
+- Katalog produk
+- Keranjang belanja
+- Pembayaran online
+- Riwayat transaksi
+
+# Quality Attributes
+
+1. **Performance** → Sistem harus cepat dalam menampilkan katalog produk.  
+2. **Security** → Data pengguna dan transaksi harus aman dengan enkripsi.  
+3. **Scalability** → Sistem dapat menampung peningkatan jumlah pengguna.  
+4. **Usability** → Antarmuka sederhana dan mudah digunakan oleh semua kalangan.  
+
+# Arsitektur Sistem
+
+Pola Arsitektur: Layered Architecture (3 lapisan)  
+- **Presentation Layer** → UI/Frontend (HTML, CSS, JavaScript).  
+- **Business Logic Layer** → Proses transaksi, validasi, rekomendasi produk.  
+- **Data Layer** → Database MySQL untuk menyimpan data produk dan transaksi.  
+
+Alasan: Layered architecture memudahkan pemisahan tanggung jawab, perawatan, dan pengembangan sistem.  
+
+# Logical View
+
+Komponen Utama:
+- Modul User → login, registrasi, profil.  
+- Modul Produk → katalog, detail produk.  
+- Modul Keranjang → tambah/hapus produk, checkout.  
+- Modul Pembayaran → integrasi API pembayaran.  
+- Modul Admin → tambah/edit produk, laporan penjualan.  
+
+Diagram sederhana (teks):
+
+[User] → [UI] → [Business Logic] → [Database]
+
+# Physical View
+
+Infrastruktur:
+- **Web Server**: Menjalankan aplikasi (Apache/Nginx).  
+- **Database Server**: MySQL untuk data produk & transaksi.  
+- **Client**: Browser pengguna untuk mengakses sistem.  
+- **Network**: Internet dengan protokol HTTPS untuk keamanan.  
+
+Diagram sederhana (teks):
+
+[Client Browser] ⇄ [Web Server] ⇄ [Database Server]
+
